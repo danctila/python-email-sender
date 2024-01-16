@@ -52,7 +52,7 @@ emailSender.Send(adresses, subject, body)
 ```
 4. Run factSender.py to send API data to email adresses assigned from the email adress inputed in emailSender.py
 
-## Contributing
+## Acknowledgements
 
 - python-email-sender uses the [uselessfacts API](https://uselessfacts.jsph.pl/ "uselessfacts API") to pull data from the /today endpoint for a daily useless fact.
 - python's dateTime library is also used to pull exact time when emails are sent to include in the subject of the given message
